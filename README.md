@@ -30,7 +30,8 @@ The output is a list with tuples (song and artist)
 
   - example 1
 
-python search.py "footprints in the sand"
+- python search.py "footprints in the sand"
+
 Searching: footprints in the sand
 
 Corazon Partio, Alejandro Sanz
@@ -100,7 +101,8 @@ Cats In The Cradle, Ugly Kid Joe
 
   - example 2
   
-python search.py Tonight
+- python search.py Tonight
+
 Searching: Tonight
 
 Vincent (Starry Starry Night), Don McLean
