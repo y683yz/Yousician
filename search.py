@@ -33,8 +33,10 @@ def main():
                 playlist[item[0]] = item[1]
 
             # Output sorted dict as a list with tuples
-            print(sorted(playlist.items(), key=my_key, reverse=False))
-        
+            # print(sorted(playlist.items(), key=my_key, reverse=False))
+            sortedlist = sorted(playlist.items(), key=my_key, reverse=False)
+            for item in sortedlist:
+                print(item[0] + ', ' + item[1])
 
 def my_key(t):
     """ Customize your sorting logic using this function.  The parameter to
