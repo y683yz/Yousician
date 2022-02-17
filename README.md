@@ -26,7 +26,7 @@ If the string including spaces, the string must be closed by a pair of "
 
 # Output sample
 
-The output is a list with tuples (song and artist)
+The each line of the output is song and artist:
 
   - example 1
 
